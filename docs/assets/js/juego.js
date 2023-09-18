@@ -87,13 +87,13 @@ const miModulo = (() => {
         const [puntosMinimos, puntosComputadora] = puntosJugadores;
         setTimeout(() => {
             if (puntosComputadora === puntosMinimos) {
-                alert('Nadie gana')
+                alert('NadieMejor empatar que perder')
             } else if (puntosMinimos > 21) {
-                alert('Computadora gana')
+                alert('La proxima vez sera campeon')
             } else if (puntosComputadora > 21) {
-                alert('jugador gana')
+                alert('Ganaste perri!')
             } else {
-                alert('Computadora Gana')
+                alert('La proxima vez sera campeon')
             }
         }, 100);
 
